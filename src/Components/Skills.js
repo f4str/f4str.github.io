@@ -6,7 +6,7 @@ class Skills extends Component {
 			<section id="skills">
 				<div className="row skill">
 					<div className="header-col center">
-						<h1><span>My Favorite Toolkit</span></h1>
+						<h1><span>My Favorite Toolkits</span></h1>
 					</div>
 					<div>
 						<ul className="bgrid-thirds s-bgrid-thirds cf">

@@ -11,15 +11,16 @@ class About extends Component {
 					<div className="eight columns main-col">
 						<h1>About Me</h1>
 						<p>
-							I am a third year undergraduate student at Stony Brook University, studying Computer Science 
-							and Applied Mathematics. My interests in Computer Science are Machine Learning and Natural 
-							Language Processing. Throughout high school and my undergraduate studies, I steadily gained 
-							experience in both software development and research by taking part in various internships. 
-							As a software engineering intern, I became very familiar with various technologies and 
-							infrastructures along with the software development cycle. I enjoy full-stack development 
-							and working on the full development cycle of an application. However, I love doing research 
-							even more than I enjoy software development. I currently aim to become a professor to continue 
-							doing research in the fields that interest me. 
+							Hello there! I'm Farhan Ahmed, an undergraduate student at Stony Brook University 
+							studying Computer Science and Applied Mathematics. Throughout my undergraduate 
+							studies, I was involved in various internships and research labs which exposed me 
+							to a wide variety of technologies, techniques, and experiences. While developing 
+							software at Bloomberg, I became acquainted with software engineering and the 
+							development cycle. From creating simulations at Jefferson Lab, I became skilled 
+							at data analytics and running experiments. I enjoy learning new things and gaining 
+							new experiences. I particularly am interested in Machine Learning and Natural 
+							Language Processing which are my main research interests. I continuously aim gain 
+							more skills to further my career as a student, software engineer, and researcher.
 						</p>
 					</div>
 				</div>

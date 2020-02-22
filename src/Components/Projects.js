@@ -5,8 +5,8 @@ class Projects extends Component {
 		return (
 			<section id="projects">
 				<div className="row">
+					<h1 className="title">Check Out Some of My Work</h1>
 					<div className="row twelve columns collapsed">
-						<h1 className="title">Check Out Some of My Work</h1>
 						<div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 							<div key="Neetspeak" className="columns projects-item">
 								<div className="item-wrap">
@@ -53,13 +53,13 @@ class Projects extends Component {
 								</div>
 							</div>
 							
-							<div key="Neural Networks Sandbox" className="columns projects-item">
+							<div key="MNIST Classifier" className="columns projects-item">
 								<div className="item-wrap">
-									<a href='https://github.com/f4str/neural-networks-sandbox' title="Neural Networks Sandbox" target="_blank" rel="noopener noreferrer">
+									<a href='https://github.com/f4str/mnist-classifier' title="MNIST Classifier" target="_blank" rel="noopener noreferrer">
 										<img alt="Neural Networks Sandbox" src="images/github.svg" />
 										<div className="overlay">
 											<div className="projects-item-meta">
-												<h5>Neural Networks Sandbox</h5>
+												<h5>MNIST Classifier</h5>
 												<p>Various Neural Networks used for digit recognition</p>
 											</div>
 										</div>
@@ -100,7 +100,7 @@ class Projects extends Component {
 							
 							<div key="Numerical Methods Toolkit" className="columns projects-item">
 								<div className="item-wrap">
-									<a href='https://github.com/f4str/numerical-methods-toolkit' title="Matrix Tools" target="_blank" rel="noopener noreferrer">
+									<a href='https://github.com/f4str/numerical-methods-toolkit' title="Numerical Methods Toolkit" target="_blank" rel="noopener noreferrer">
 										<img alt="Numerical Methods Toolkit" src="images/github.svg" />
 										<div className="overlay">
 											<div className="projects-item-meta">
