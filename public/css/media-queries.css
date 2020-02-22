@@ -71,7 +71,16 @@
 		font-size: 22px;
 		line-height: 46px;
 	}
-
+	
+	/* Projects Section
+   ------------------------------------------------------------------- */
+	#projects .title {
+		font-size: 36px;
+	}
+	#projects .projects-item {
+		padding: 30px;
+	}
+	
 	/* Contact Section
    ------------------------------------------------------------------- */
 	#contact .section-head {
@@ -259,6 +268,20 @@
 	.popup-modal {
 		max-width: 85%;
 	}
+	#projects .title {
+		font-size: 24px;
+	}
+	#projects .projects-item {
+		max-width: 300px;
+		max-height: 300px;
+		margin-left: 50px;
+	}
+
+	/* Control Nav */
+	.flex-control-nav {
+		text-align: center;
+		margin-left: -30px;
+	}
 
 	/* skills Section
    ----------------------------------------------------------------------- */
@@ -266,7 +289,7 @@
 		text-align: center;
 	}
 	#skills h1 {
-		font: 16px/24px "opensans-bold", sans-serif;
+		font: 24px/24px "opensans-bold", sans-serif;
 		text-align: center;
 		margin-bottom: 30px;
 		text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -284,11 +307,9 @@
 		font-size: 20px;
 		line-height: 42px;
 	}
-
-	/* Control Nav */
-	.flex-control-nav {
-		text-align: center;
-		margin-left: -30px;
+	#skills img {
+		max-width: 170px;
+		max-height: 170px;
 	}
 
 	/* contact Section
