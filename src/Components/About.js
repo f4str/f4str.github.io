@@ -18,8 +18,8 @@ class About extends Component {
 							software at Bloomberg, I became acquainted with software engineering and the 
 							development cycle. From creating simulations at Jefferson Lab, I became skilled 
 							at data analytics and running experiments. I enjoy learning new things and gaining 
-							new experiences. I particularly am interested in Machine Learning and Natural 
-							Language Processing which are my main research interests. I continuously aim gain 
+							new experiences. I am particularly interested in Machine Learning and Natural 
+							Language Processing which are my main research topics. I continuously aim to gain 
 							more skills to further my career as a student, software engineer, and researcher.
 						</p>
 					</div>
