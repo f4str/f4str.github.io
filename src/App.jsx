@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -9,35 +8,26 @@ import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 
-class App extends Component {
+function App() {
+	const load = document.getElementById('siteLoading');
 	
-	constructor(props){
-		super(props);
-		ReactGA.initialize('UA-110570651-1');
-		ReactGA.pageview(window.location.pathname);
-	}
-	
-	componentDidMount(){
-		const load = document.getElementById('siteLoading');
-		this.setState();
-		setTimeout(()=>{ 
+	useEffect(() => {
+		setTimeout(() => { 
 			load.outerHTML=''; 
 		}, 500);
-	}
+	}, []);
 	
-	render() {
-		return (
-			<div className="App">
-				<Header />
-				<About />
-				<Resume />
-				<Skills />
-				<Projects />
-				<Contact />
-				<Footer />
-			</div>
-		);
-	}
+	return (
+		<div className="App">
+			<Header />
+			<About />
+			<Resume />
+			<Skills />
+			<Projects />
+			<Contact />
+			<Footer />
+		</div>
+	)
 }
 
 export default App;
