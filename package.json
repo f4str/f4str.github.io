@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.16.0",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.0",
     "react": "^16.2.0",
@@ -12,8 +13,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-	"predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
