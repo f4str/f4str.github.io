@@ -15,7 +15,7 @@ function Contact() {
 				<li key="linkedin"><a href="https://www.linkedin.com/in/f4str/"><i className="fa fa-linkedin"></i></a></li>
 			</ul>
 		</section>
-	)
+	);
 }
 
 export default Contact;

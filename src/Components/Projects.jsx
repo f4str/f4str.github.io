@@ -138,7 +138,7 @@ function Projects() {
 				</div>
 			</div>
 		</section>
-	)
+	);
 }
 
 export default Projects;

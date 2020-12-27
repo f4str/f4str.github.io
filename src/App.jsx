@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
@@ -7,6 +6,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import './App.css';
 
 function App() {
 	const load = document.getElementById('siteLoading');

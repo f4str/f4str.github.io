@@ -49,7 +49,7 @@ function Skills() {
 				</div>
 			</div>
 		</section>
-	)
+	);
 }
 
 export default Skills;
