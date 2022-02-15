@@ -7,6 +7,7 @@ import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import './App.css';
+import Publications from './Components/Publications';
 
 function App() {
 	const load = document.getElementById('siteLoading');
@@ -22,7 +23,8 @@ function App() {
 			<Header />
 			<About />
 			<Resume />
-			<Skills />
+			{/* <Skills /> */}
+			<Publications />
 			<Projects />
 			<Contact />
 			<Footer />
