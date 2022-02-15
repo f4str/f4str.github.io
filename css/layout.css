@@ -260,6 +260,7 @@ ul#nav li.current a {
 	font: 16px "opensans-regular", sans-serif;
 	color: #cccccc;
 	margin: 6px 0 0 12px;
+	padding-left: 48px;
 }
 
 #resume .info {
@@ -312,6 +313,38 @@ ul#nav li.current a {
 	padding: 0 0 10px 0;
 }
 
+/* Publications Section */
+
+#publications {
+	background: #222222;
+	padding-top: 72px;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+
+#publications h1 {
+	font: 36px "opensans-bold", sans-serif;
+	color: #ffffff;
+	margin-bottom: 12px;
+	padding-bottom: 36px;
+}
+
+#publications .paper {
+	font: 18px "opensans-bold", sans-serif;
+	color: #aaaaaa;
+	margin-bottom: 2px;
+}
+
+#publications .authors {
+	font-size: 16px;
+	padding-top: 4px;
+	padding-bottom: 32px;
+}
+
+#publications .authors .me {
+	font-style: italic;
+}
+
 /* Projects Section */
 
 #projects {
@@ -332,7 +365,7 @@ ul#nav li.current a {
 	margin-bottom: 36px;
 }
 .projects-item .item-wrap {
-	background: #fff;
+	background: #dddddd;
 	overflow: hidden;
 	position: relative;
 
@@ -373,7 +406,6 @@ ul#nav li.current a {
 	width: 30px;
 	font-size: 18px;
 	line-height: 30px;
-	text-align: center;
 
 	opacity: 0;
 	-moz-opacity: 0;
@@ -391,7 +423,13 @@ ul#nav li.current a {
 	margin-top: -15px;
 }
 .projects-item .item-wrap img {
-	vertical-align: bottom;
+	display: block;
+	height: 75%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .projects-item .projects-item-meta {
 	padding: 18px;
